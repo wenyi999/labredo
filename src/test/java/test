@@ -1,0 +1,10 @@
+public class SolutionTest {
+
+    @Test
+    public void testLadderLength(){
+        Solution c = new Calculator();
+        int result = c.ladderLength(hit, cog, wordlist);
+        Assert.assertEquals(result, 5);
+    }
+
+}
