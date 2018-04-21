@@ -12,8 +12,9 @@ import java.util.Scanner;
 @RequestMapping("/answer")
 public class runthefunction {
 
-    public static void main( Set<String>[] args )
+    public static void main( String[] args )
     {
+
         String filename="C:\\Users\\Boyi\\Desktop\\WordLadder_dictionary\\dictionary.txt";
         int answer =0;
         Set<String> wordList=0;
